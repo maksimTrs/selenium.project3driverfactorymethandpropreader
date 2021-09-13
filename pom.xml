@@ -68,7 +68,7 @@
                         <suiteXmlFiles>
                             <suiteXmlFile>AllTests.xml</suiteXmlFile>
                         </suiteXmlFiles>
-                        <reportsDirectory>C:\Users\User\AppData\Local\Jenkins\.jenkins\workspace\TestAutomationRun\target</reportsDirectory>
+                        <reportsDirectory>C:/Program Files (x86)/Jenkins/workspace/Allure-testJob1/target</reportsDirectory>
                         <argLine>
                             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                         </argLine>
