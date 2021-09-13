@@ -14,4 +14,4 @@
 </suite>
 
         <!--start Suite WITH comand =  mvn clean test -DsuiteXmlFile=AllTests.xml -Durl=https://www.google.ru -Dbrowser=FIREFOX  -->
-        <!-- or WITH comand =  mvn clean test -DsuiteXmlFile=AllTests.xml  -->
+        <!-- or WITH comand =  mvn clean test -DsuiteXmlFile=AllTests.xml -Dmaven.test.failure.ignore=true -->
