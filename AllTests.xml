@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1">   <!--data-provider-thread-count="20" parallel="classes" thread-count="20"-->
+    <test name="SearchTest">
+        <classes>
+            <class name="tests.SearchTest"/>
+        </classes>
+    </test>
+    <test name="SearchTest2">
+        <classes>
+            <class name="tests.SearchTest2"/>
+        </classes>
+    </test>
+</suite>
+
+        <!--start Suite WITH comand =  mvn clean test -DsuiteXmlFile=AllTests.xml -Durl=https://www.google.ru -Dbrowser=FIREFOX  -->
+        <!-- or WITH comand =  mvn clean test -DsuiteXmlFile=AllTests.xml  -->
