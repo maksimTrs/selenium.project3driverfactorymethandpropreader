@@ -6,7 +6,7 @@ import utils.PropertyReader;
 public class SearchTest extends BaseTest {
 
     @Test(dataProvider = "dataProvider1")
-    public void openGoogleComPage(String searchText) {
+    public void openGoogleComPageTest1(String searchText) {
         steps.executeSearchByKeyWord(searchText)
                 .verifyTopResultContainsCorrectText(searchText)
                 .verifyTopResultContainsProperAttrText(PropertyReader.getAttrValue());

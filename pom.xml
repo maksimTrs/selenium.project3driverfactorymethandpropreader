@@ -60,7 +60,7 @@
     </dependencies>
     <build>
             <plugins>
-               <!-- <plugin>
+               <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>${maven-surefire-plugin.version}</version>
@@ -69,14 +69,6 @@
                             <suiteXmlFile>AllTests.xml</suiteXmlFile>
                         </suiteXmlFiles>
                         <reportsDirectory>C:\Users\User\AppData\Local\Jenkins\.jenkins\workspace\TestAutomationRun\target</reportsDirectory>
-                    </configuration>
-                </plugin>-->
-                <!-- Allure section! -->
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                    <version>${maven-surefire-plugin.version}</version>
-                    <configuration>
                         <argLine>
                             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                         </argLine>
@@ -98,6 +90,5 @@
                     </configuration>-->
                 </plugin>
             </plugins>
-        <!-- Allure section! -->
     </build>
 </project>
