@@ -53,6 +53,7 @@ public abstract class BaseTest {
     @AfterMethod
     public void goBack() {
         driver.navigate().back();
+       // driver.get(PropertyReader.getUrl());
     }
 
     @DataProvider(name = "dataProvider1") // parallel = true
